@@ -1,0 +1,67 @@
+/*
+ * Tabler owns the look; VitePress owns the docs machinery (sidebar, search, outline).
+ * This file points VitePress's design tokens at Tabler's, so both read as one Tabler site, and
+ * undoes the few Bootstrap rules that collide with VitePress's own class names.
+ * Tabler's tokens change with `data-bs-theme` (set by Layout.vue), so one mapping serves both themes.
+ */
+
+:root,
+:root.dark {
+  --vp-font-family-base: var(--tblr-font-sans-serif);
+  --vp-font-family-mono: var(--tblr-font-monospace);
+
+  --vp-c-brand-1: var(--tblr-primary);
+  --vp-c-brand-2: color-mix(in oklch, var(--tblr-primary) 85%, var(--tblr-body-color));
+  --vp-c-brand-3: var(--tblr-primary);
+  --vp-c-brand-soft: color-mix(in oklch, var(--tblr-primary) 14%, transparent);
+
+  --vp-c-bg: var(--tblr-body-bg);
+  --vp-c-bg-alt: var(--tblr-bg-surface-secondary);
+  --vp-c-bg-elv: var(--tblr-bg-surface);
+  --vp-c-bg-soft: var(--tblr-bg-surface-secondary);
+
+  --vp-c-text-1: var(--tblr-body-color);
+  --vp-c-text-2: var(--tblr-secondary);
+  --vp-c-text-3: var(--tblr-muted, var(--tblr-secondary));
+
+  --vp-c-border: var(--tblr-border-color);
+  --vp-c-divider: var(--tblr-border-color);
+  --vp-c-gutter: var(--tblr-border-color);
+
+  --vp-button-brand-bg: var(--tblr-primary);
+  --vp-button-brand-hover-bg: color-mix(in oklch, var(--tblr-primary) 88%, black);
+  --vp-button-brand-active-bg: color-mix(in oklch, var(--tblr-primary) 80%, black);
+  --vp-button-brand-text: var(--tblr-primary-fg, #fff);
+
+  --vp-code-block-bg: var(--tblr-bg-surface-dark, #1e293b);
+  --vp-custom-block-tip-bg: color-mix(in oklch, var(--tblr-green) 10%, transparent);
+  --vp-custom-block-warning-bg: color-mix(in oklch, var(--tblr-yellow) 12%, transparent);
+  --vp-custom-block-danger-bg: color-mix(in oklch, var(--tblr-red) 10%, transparent);
+}
+
+/* Bootstrap's `.container` sets widths and gutters; VitePress uses the same class name for its own layout. */
+.VPNav .container,
+.VPNavBar .container,
+.VPDoc .container,
+.VPFooter .container,
+.VPLocalSearchBox .container {
+  width: auto;
+  max-width: none;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Bootstrap's reboot underlines and recolours every link; VitePress styles its own nav and sidebar links. */
+.VPNav a,
+.VPSidebar a,
+.VPDocAside a,
+.VPLocalNav a {
+  text-decoration: none;
+}
+
+/* Marketing pages render full width inside VitePress's `layout: page`. */
+.VPPage .tabler-page {
+  margin: 0 calc(-1 * var(--vp-page-gutter, 0px));
+}
