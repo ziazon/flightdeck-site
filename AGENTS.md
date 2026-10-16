@@ -16,5 +16,5 @@ This repository is **public**. It holds only the Flightdeck website. Read this b
   `docs/.vitepress/theme/Layout.vue` keeps in step with VitePress's toggle.
 - **The gate:** `pnpm check` (hygiene, then a build that fails on dead links) and `bash scripts/gitleaks.sh`.
   CI (`.github/workflows/ci.yml`) runs the same. Actions are pinned to commit SHAs.
-- **Landing:** no pull requests. Commit on a branch, run the gate, rebase on `origin/main` and push straight to
-  `main`. `main` deploys to GitHub Pages (`.github/workflows/deploy.yml`), and CI runs on the push.
+- **Landing:** a branch and a PR to `main`, merged when CI is green. `main` deploys to GitHub Pages
+  (`.github/workflows/deploy.yml`).
