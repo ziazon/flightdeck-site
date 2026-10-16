@@ -33,7 +33,6 @@
   --vp-button-brand-active-bg: color-mix(in oklch, var(--tblr-primary) 80%, black);
   --vp-button-brand-text: var(--tblr-primary-fg, #fff);
 
-  --vp-code-block-bg: var(--tblr-bg-surface-dark, #1e293b);
   --vp-custom-block-tip-bg: color-mix(in oklch, var(--tblr-green) 10%, transparent);
   --vp-custom-block-warning-bg: color-mix(in oklch, var(--tblr-yellow) 12%, transparent);
   --vp-custom-block-danger-bg: color-mix(in oklch, var(--tblr-red) 10%, transparent);

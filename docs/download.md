@@ -8,7 +8,7 @@ outline: false
 Flightdeck is free. Both builds below are on their way.
 
 <ComingSoon platform="mac" title="Flightdeck for Mac">
-  A signed and notarized app for Macs with Apple silicon, downloadable from this page. Until it is
+  A signed and notarized Mac app, downloadable from this page. Until it is
   ready, read the <a href="/guide/getting-started">guide</a> to see how Flightdeck works.
 </ComingSoon>
 
