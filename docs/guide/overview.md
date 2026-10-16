@@ -2,6 +2,8 @@
 
 Flightdeck is a few small pieces that each do one job. Knowing which piece does what tells you where your data lives and what can reach the network.
 
+<AppScreenshot name="overview" alt="The Flightdeck overview with sample data" />
+
 ```text
    desktop app            terminal dashboard (flightdeck)
         \                       /

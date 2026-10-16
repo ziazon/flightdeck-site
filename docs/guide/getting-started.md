@@ -69,6 +69,8 @@ Everything Flightdeck writes for you is signed: Jira comments end with *via Flig
 
 ## Next steps
 
+- [Connect Jira, Slack and Trello](/guide/connect-jira-slack-trello), step by step.
+- [Run an agent until its work is done](/guide/run-until-done): a bucket, a job and its timeline.
 - [Work buckets](/guide/work-buckets): group the work your agents take on.
 - [Jobs](/guide/jobs): run agents on a schedule or until the work is done.
 - [Needs You](/guide/needs-you): see what is waiting on you.

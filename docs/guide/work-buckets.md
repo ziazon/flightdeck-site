@@ -2,6 +2,8 @@
 
 A work bucket is a named pile of work in one project: a set of Jira issues or Trello cards, plus anything else that belongs with them. Jobs work through buckets, so a bucket is how you tell your agents what to take on.
 
+<AppScreenshot name="work-buckets" alt="The Work Buckets page with sample buckets" />
+
 Each bucket is a note in your workspace's `buckets/` folder, named `ops-bucket-<slug>.md`.
 
 ## What a bucket holds

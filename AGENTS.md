@@ -10,6 +10,8 @@ This repository is **public**. It holds only the Flightdeck website. Read this b
 - **Screenshots show sample data only**, taken from the app running against its fixture data.
 - **Every claim about the app must be true today.** A planned or partial feature says "In development" or
   "Coming soon".
+- **Generated pages.** `docs/reference/cli.md` is written by `pnpm cli-reference [path/to/flightdeck]` from the
+  binary's own help; re-run it at each release, never edit it by hand.
 - **Light and dark.** Check every page in both themes. Tabler reads `data-bs-theme`, which
   `docs/.vitepress/theme/Layout.vue` keeps in step with VitePress's toggle.
 - **The gate:** `pnpm check` (hygiene, then a build that fails on dead links) and `bash scripts/gitleaks.sh`.

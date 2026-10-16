@@ -2,6 +2,8 @@
 
 A job runs an AI agent for you: on a schedule, or until a pile of work is done. Each run is a headless Claude Code session with the job's prompt. macOS starts the runs through launchd, so they happen even when the app is closed.
 
+<AppScreenshot name="jobs" alt="The Jobs page with sample jobs" />
+
 ## A job is a note
 
 Each job is a note in your workspace's `jobs/` folder. The body is the prompt.

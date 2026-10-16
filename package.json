@@ -11,6 +11,7 @@
     "build": "vitepress build docs",
     "preview": "vitepress preview docs",
     "hygiene": "bash scripts/hygiene-check.sh",
+    "cli-reference": "node scripts/cli-reference.mjs",
     "check": "bash scripts/hygiene-check.sh && vitepress build docs"
   },
   "devDependencies": {

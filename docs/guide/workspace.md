@@ -19,6 +19,10 @@ Your workspace is a folder of plain markdown notes that Flightdeck reads and wri
 | `learnings/` | Weekly learnings files |
 | `TEAM.md` | The rules every agent reads before it works |
 
+The app's **Skills** page draws your skills as a graph of which one routes to, pairs with, links to or names another. Skills shared through the workspace are solid circles; skills that live only on this Mac are dashed.
+
+<AppScreenshot name="skills" alt="The Skills page drawing sample skills as a graph" />
+
 ## Notes
 
 A note is a markdown file with optional YAML frontmatter at the top. Flightdeck treats your notes carefully:

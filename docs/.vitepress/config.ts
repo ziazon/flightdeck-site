@@ -45,6 +45,14 @@ export default defineConfig({
           ],
         },
         {
+          text: 'How-to guides',
+          items: [
+            { text: 'Run an agent until its work is done', link: '/guide/run-until-done' },
+            { text: 'Run a job on a schedule', link: '/guide/run-on-a-schedule' },
+            { text: 'Connect Jira, Slack and Trello', link: '/guide/connect-jira-slack-trello' },
+          ],
+        },
+        {
           text: 'Your phone',
           items: [{ text: 'The iPhone companion', link: '/guide/companion' }],
         },
