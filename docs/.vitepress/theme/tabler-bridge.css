@@ -64,3 +64,8 @@
 .VPPage .tabler-page {
   margin: 0 calc(-1 * var(--vp-page-gutter, 0px));
 }
+
+/* Code blocks share the page's surface colour in light mode, so a Tabler border sets them apart. */
+.vp-doc div[class*='language-'] {
+  border: 1px solid var(--tblr-border-color);
+}
