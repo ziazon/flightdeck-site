@@ -38,6 +38,8 @@ The new Inbox sorts every message into a **kind**, then helps you act on it:
 
 **Who guesses.** Fixed rules go first, with no AI model: a ticket key or a direct question to you points to Work, and bot posts or short acknowledgements point to Chatter. What the rules leave goes to a small Claude model that has no tools and treats the Slack text as data, never as instructions. It never posts, replies or archives anything in Slack. The rules and the model only make guesses, which show as dashed outlines with the reason on hover. One click confirms a guess, or you pick another kind. Your choice always wins.
 
+**Auto-sort and bulk accept.** In the redesign, sorting can run by itself behind a switch you can turn off, or once when you press **Sort now**, with the model's daily token use capped and shown on a meter. **Review & accept** lists every guess at once: move the wrong ones, then accept the rest in one click. See [What's coming](/whats-coming#inbox-a-triage-desk).
+
 **Bulk archive.** The Chatter list has one button to archive every guessed chatter message, after showing you the counts per channel, or you tick the ones you want.
 
 **Work actions.** A Work message gets three buttons:

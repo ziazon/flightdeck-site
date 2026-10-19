@@ -6,6 +6,10 @@ A monitor is a saved view of one stream of work: a set of [work buckets](/guide/
 You can create and edit monitors today, from the command line. The Monitor screen in the desktop app (its board, questions column and chat) and the notification and wake rules are still being built. This page marks each part.
 :::
 
+::: tip Coming in the redesign
+The Monitor screen below becomes part of the redesigned **Overview** page, where a monitor is a saved group of Flights. See [What's coming](/whats-coming#overview-watch-the-work).
+:::
+
 ## A monitor is a note
 
 Each monitor is a note in your workspace's `monitors/` folder:

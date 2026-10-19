@@ -3,6 +3,7 @@ import HeroSection from './HeroSection.vue'
 import FeatureSection from './FeatureSection.vue'
 import PrivacySection from './PrivacySection.vue'
 import CompanionSection from './CompanionSection.vue'
+import RedesignSection from './RedesignSection.vue'
 </script>
 
 <template>
@@ -11,5 +12,6 @@ import CompanionSection from './CompanionSection.vue'
     <FeatureSection />
     <PrivacySection />
     <CompanionSection />
+    <RedesignSection />
   </div>
 </template>
