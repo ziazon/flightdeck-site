@@ -16,6 +16,14 @@ The companion is a native iPhone app that drives Flightdeck on your Mac while yo
 
 A monitor's chat and the Inbox's work actions are planned for the phone as well.
 
+### With the redesign
+
+- **Overview, Planner and Flights** come to the phone: follow a group's board, approve a plan and queue it, and start or stop a Flight.
+- **Talk by voice:** a hold-to-talk button on every tab, so you can ask about your work and hear the answer.
+- **Notifications move to the companion:** once its push notifications work, they replace the Pushover alerts Flightdeck uses today.
+
+See [What's coming](/whats-coming#the-phone).
+
 The companion will also run on Macs with Apple silicon, through the Mac App Store.
 
 ## How it's secured

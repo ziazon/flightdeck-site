@@ -21,6 +21,7 @@ export default defineConfig({
     nav: [
       { text: 'Docs', link: '/guide/getting-started', activeMatch: '/guide/' },
       { text: 'CLI', link: '/reference/cli', activeMatch: '/reference/' },
+      { text: "What's coming", link: '/whats-coming' },
       { text: 'Download', link: '/download' },
       { text: 'Changelog', link: '/changelog' },
     ],

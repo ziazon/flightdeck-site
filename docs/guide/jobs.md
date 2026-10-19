@@ -2,6 +2,10 @@
 
 A job runs an AI agent for you: on a schedule, or until a pile of work is done. Each run is a headless Claude Code session with the job's prompt. macOS starts the runs through launchd, so they happen even when the app is closed.
 
+::: tip Coming in the redesign
+The Jobs page is renamed **Flights**, with a machine filter and a side panel you can pin. See [What's coming](/whats-coming#flights).
+:::
+
 <AppScreenshot name="jobs" alt="The Jobs page with sample jobs" />
 
 ## A job is a note
